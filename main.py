@@ -1,6 +1,7 @@
 import pyspark
 import json
 import re
+import emoji
 
 hashtags = []
 tweets = []
@@ -39,24 +40,29 @@ for i, hashtag in enumerate(hashtags):
 print(counter)
 print({key: counter[key] for key in sorted(counter)})
 
-tweets = [re.sub(hashtag_pattern, '', tweet.replace('\n', '')).strip() for
-          tweet in
-          tweets]
+
+def remove_bad_tweet_data(data):
+    return re.sub(re.compile(r'#\w+|@\S+:? |RT |http\S+| ?\| ?| ?\u2026 '
+                             r'?'), '',
+                  emoji.replace_emoji(data.replace('\n', '').strip(' ,'),
+                                      '')).strip(' :|')
+
+
+tweets = [remove_bad_tweet_data(tweet) for tweet in tweets]
+
+
+def remove_bad_hashtag_data(data):
+    return re.sub(re.compile(r'[\[\],\']'), '', data)
+
 
 with open('training.csv', 'w', encoding='utf-8') as training_csv:
     assert len(hashtags) == len(tweets)
     # writer = csv.writer(training_csv)
     for i in range(len(hashtags)):
-        training_csv.write(f'human: {tweets[i]} \\n bot: {hashtags[i]}')
-        training_csv.write(',\n')
+        training_csv.write(f'Given the tweet "{tweets[i]}"; retur'
+                           f'n a list of possible hashtags,'
+                           f'{remove_bad_hashtag_data(str(hashtags[i])).strip(",")}')
+        training_csv.write('\n')
 
-string = "RT @matt7gh: 3/\n\nricordiamo come i giornali #mainstream diffondevano menzogne sull'immunità naturale da #Covid per pompare i finti #vaccini…"
-print(string)
-print(string.replace('\n', ''))
-# hashtags = []
-# with open('hashtags_and_urls.txt', encoding='utf-8') as twitter_file:
-#     hashtags = [line.strip('\n') for line in twitter_file.readlines() if
-#                 line.startswith(
-#         '#')]
-#
-# print(hashtags)
+string = "finti … l…"
+print(remove_bad_tweet_data(string))

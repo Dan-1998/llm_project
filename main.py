@@ -42,7 +42,7 @@ print({key: counter[key] for key in sorted(counter)})
 
 
 def remove_bad_tweet_data(data):
-    return re.sub(re.compile(r'#\w+|@\S+:? |RT |http\S+| ?\| ?| ?\u2026 '
+    return re.sub(re.compile(r'#\w+|@\S+:? |RT | ?, ?|http\S+| ?\| ?| ?\u2026 '
                              r'?'), '',
                   emoji.replace_emoji(data.replace('\n', '').strip(' ,'),
                                       '')).strip(' :|')
@@ -58,11 +58,9 @@ def remove_bad_hashtag_data(data):
 with open('training.csv', 'w', encoding='utf-8') as training_csv:
     assert len(hashtags) == len(tweets)
     # writer = csv.writer(training_csv)
+    training_csv.write('Input,Output\n')
     for i in range(len(hashtags)):
         training_csv.write(f'Given the tweet "{tweets[i]}"; retur'
                            f'n a list of possible hashtags,'
                            f'{remove_bad_hashtag_data(str(hashtags[i])).strip(",")}')
         training_csv.write('\n')
-
-string = "finti … l…"
-print(remove_bad_tweet_data(string))

@@ -14,11 +14,11 @@ tokenizer = AutoTokenizer.from_pretrained("t5-small")
 def preprocess_function(examples):
     inputs = [tweet for tweet in examples['Input']]
     targets = [hashtags.replace("#", "") for hashtags in examples['Output']]  # Remove '#' from hashtags
-    model_inputs = tokenizer(inputs, max_length=128, truncation=True)
+    model_inputs = tokenizer(inputs, max_length=128, truncation=True, padding="max_length")
 
     # Setup the tokenizer for targets
     with tokenizer.as_target_tokenizer():
-        labels = tokenizer(targets, max_length=128, truncation=True)
+        labels = tokenizer(targets, max_length=128, truncation=True, padding="max_length")
 
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs

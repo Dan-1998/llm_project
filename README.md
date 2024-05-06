@@ -12,7 +12,7 @@ For this project LLM models are retrained using a series of preprocessed tweets 
   * re
   * csv
  
-## To Run
+## To run the model
 * tweet_processor.py
   * have `tweets.json` in same directory as script
   * `python3 tweet_processor.py`

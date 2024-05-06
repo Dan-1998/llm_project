@@ -1,6 +1,7 @@
 import pandas as pd
 from datasets import Dataset
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, Seq2SeqTrainer, Seq2SeqTrainingArguments, get_scheduler
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, \
+    Seq2SeqTrainer, Seq2SeqTrainingArguments, get_scheduler, AutoModelForMaskedLM
 import matplotlib.pyplot as plt
 
 print("LOAD")
@@ -10,7 +11,8 @@ dataset = Dataset.from_pandas(df)
 
 print("PREPROCESS")
 # Preprocess the data
-tokenizer = AutoTokenizer.from_pretrained("t5-small")
+model_name = "t5-large"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 def preprocess_function(examples):
     inputs = [tweet for tweet in examples['Input']]
@@ -33,7 +35,8 @@ split_datasets = tokenized_datasets.train_test_split(test_size=0.1)
 
 print("LOAD MODEL")
 # Load a pre-trained model
-model = AutoModelForSeq2SeqLM.from_pretrained("t5-small")
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+#AutoModelForMaskedLM.from_pretrained(model_name)#AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
 # Training arguments
 training_args = Seq2SeqTrainingArguments(
@@ -77,5 +80,5 @@ plt.show()
 
 print("SAVE")
 # Save the model
-model.save_pretrained("./finetuned_model")
-tokenizer.save_pretrained("./finetuned_model")
+model.save_pretrained(f"./{model_name}")
+tokenizer.save_pretrained(f"./{model_name}")

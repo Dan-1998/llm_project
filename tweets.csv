@@ -589,7 +589,6 @@ Given the tweet 'Researcher identifies   of   Long COVID aka Post-Acute sequelae
 Given the tweet 'Sucesso de aplicaoO  registra que 885% da populao brasileira recebeu ao menos uma dose de vacina contra a covid desde o incio do esforo pela imunizao em janeiro de 2021. Resultado melhor que gripe HPV etc.'; return a list of possible hashtags separated by spaces,#ColunaCH #DiariodoPoder
 Given the tweet 'Fin de lobligation vaccinale du Covid pour les  en France? Que vous soyiez dfaitiste ou pas dites-vous bien que c'; return a list of possible hashtags separated by spaces,#soignants
 Given the tweet 'Merci Toute la problmatique est dsormais rvle ! Les gens sont trs fchs !'; return a list of possible hashtags separated by spaces,#CNEWS #Covid_19
-Given the tweet '4  # # # #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'New COVID-19 Data at 2023-02-20 10:00:01 am EST'; return a list of possible hashtags separated by spaces,#Coronavirus #COVID19 #COVID_19
 Given the tweet 'Sterlite was essential in the generation of oxygen during the COVID crisis and it is now time for it to contribute to copper production and .'; return a list of possible hashtags separated by spaces,#Atmanirbharta #ReopenSterlite
@@ -1604,7 +1603,6 @@ Given the tweet 'Forcing people to take  is cruel blatant violation of peoples r
 Given the tweet 'Researcher identifies   of   Long COVID aka Post-Acute sequelae of COVID may occur when  #'; return a list of possible hashtags separated by spaces,#Potential #Cause #Long #COVID #viral
 Given the tweet 'People didnt die from COVID. They were murdered by the greedy industrial medical complex'; return a list of possible hashtags separated by spaces,#COVIDVACCINE #BigPharma #dieds
 Given the tweet 'People didnt die from COVID. They were murdered by the greedy industrial medical complex'; return a list of possible hashtags separated by spaces,#COVIDVACCINE #BigPharma #dieds
-Given the tweet '(cloudsmartch2)  # #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Due to the covid pandemic the DMS  was inactive over the last few years. We started back strong this year with lots of ideas to help our middles get the best outta school. We are raising funds for field trips and reward days.'; return a list of possible hashtags separated by spaces,#fundraising #Pto
 Given the tweet 'Fin de lobligation vaccinale? Il nest jamais trop tard... Mais surtout'; return a list of possible hashtags separated by spaces,#Covid #JusticePourLesSuspendus
 Given the tweet 'While progress in the fight against  is under threat from the impacts of COVID-19 and climate change a'; return a list of possible hashtags separated by spaces,#ChildMarriage
@@ -1873,7 +1871,6 @@ Given the tweet 'Appel candidatures pour linitiative COVID-19 Vaccination  de . 
 Given the tweet 'New  vaccine incentive payment for GPs and pharmacies to deliver more death jabs to the elderly in aged care. Double the'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'The plan for  to be the only remaining super power was hatched in the early 50s after  took control of China'; return a list of possible hashtags separated by spaces,#China #Mao
-Given the tweet 'COVID-19 #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'Covid-19Taiwan Cabut Wajib Masker di Restoran dan Kantor'; return a list of possible hashtags separated by spaces,#TempoDunia
@@ -2483,7 +2480,6 @@ Given the tweet 'Da 1071 de pandemia en Venezuela13 nuevos casos por covid-19   
 Given the tweet 'Un estudio reciente del Hospital Cedars Sinai muestra que la cantidad de muertes por ataques cardacos'; return a list of possible hashtags separated by spaces,#epidemiaendatos
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'Fentanyl is a BIGGER threat to our nation than COVID ever was.'; return a list of possible hashtags separated by spaces,#closetheborder
-Given the tweet '# # #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'la HAS envisage de lever linjection obligatoire chez les soignants. Les lignes bougent-elles enfin ?'; return a list of possible hashtags separated by spaces,#COVID19 #Reintegrez
 Given the tweet 'We have helped citizens of other nations during Covid :PM'; return a list of possible hashtags separated by spaces,#OperationDost
@@ -2842,7 +2838,6 @@ Given the tweet 'Estimacin del Riesgo de Propagacin del COVID-19'; return a list
 Given the tweet 'Weve ticked over 3  pandemic years.. We were told that the health advice was to Lockdown Social distance Wear masks W'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'Patricia Cummings is the clinical nurse manager at Howard University Hospital who inoculated VP Harris with the COVID-19 vaccine and an important nursing leader'; return a list of possible hashtags separated by spaces,#nurseleader
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
-Given the tweet 'COVID Vax #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'My latest report for is a must-read I analysed the first EU safety update report for   va'; return a list of possible hashtags separated by spaces,#Pfizer #BioNTech
 Given the tweet 'Boletn Especial Epidemiolgico  Enfermedad por  (COVID-19).'; return a list of possible hashtags separated by spaces,#1068 #coronavirusRD #NoticiasSIN
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
@@ -3017,7 +3012,6 @@ Given the tweet 'Vacunacin contra Covid-19 lunes 20 febrero  Moderna Bivalente e
 Given the tweet 'Learn about strategies for inpatient management of COVID-19 from a multidisciplinary panel of expert faculty with experience treating hospitalized COVID-19 patients.  Provided by in collaboration with &amp; .'; return a list of possible hashtags separated by spaces,#CME
 Given the tweet 'Local doctor weighs in on new COVID-19 study'; return a list of possible hashtags separated by spaces,#phep #medicalcountermeasures #vaccines
 Given the tweet 'As the Pandemic Swept America Deaths in Prisons Rose Nearly 50 Percent.'; return a list of possible hashtags separated by spaces,#nopaywall
-Given the tweet 'Penayangan episode 8 TechnoroidOvermind ditunda ke 1 Maret karena COVID-19. Sedangkan tanggal penayangan untuk episode 9 akan diberitahukan lebih lanjut.  # #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Of Course! Natural  will always be better than any .'; return a list of possible hashtags separated by spaces,#immunity #vaccination
 Given the tweet 'En ce moment place de la rpublique  Action  Affiches dcs post-vaccination et rinformat'; return a list of possible hashtags separated by spaces,#Lyon #lesmasquesblancs
 Given the tweet 'la Giornata nazionale del personale sanitario sociosanitario e assistenziale lavoratrici e lavorat'; return a list of possible hashtags separated by spaces,#LuigiSbarraOggi
@@ -3258,7 +3252,6 @@ Given the tweet 'Das interessante an den -Kinder-Intensivstationen ist im brigen
 Given the tweet 'The  was designed to generate mass fear to convince the public to get vaccinated. Peter Collignon one of Au'; return a list of possible hashtags separated by spaces,#plandemic
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
-Given the tweet '28 # # #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'UPA DOS BARRIS NO DETECTA COVID EM FOLIES QUE FIZERAM TESTES'; return a list of possible hashtags separated by spaces,#Sade
@@ -3344,7 +3337,6 @@ Given the tweet '.  Da 1071 de pandemia en Venezuela13 nuevos casos por covid-19
 Given the tweet 'Covid grillt das  - Nachweis von -CoV-2-Virusproteinen und Sequenzen in menschlichen Hirnstammkernen ua der dorsa'; return a list of possible hashtags separated by spaces,#Hirn #SARS
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'Da 1071 de pandemia en Venezuela13 nuevos casos por covid-19   Turqua y Siria'; return a list of possible hashtags separated by spaces,#FestivalDeCarnavales2023 #poupettekenza
-Given the tweet '3covid-19 #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Enorme. Ils envisagent de lever lobligation vaccinale?'; return a list of possible hashtags separated by spaces,#France
 Given the tweet 'Finito le Covid et les vaccins maintenant on a'; return a list of possible hashtags separated by spaces,#palmade
 Given the tweet 'Did yall talk about the CDC adding the Covid shot to the routine child vax schedule? We all knew they would but didnt know if it was mentioned that its official now.'; return a list of possible hashtags separated by spaces,#PutThatInYourPipe
@@ -3718,7 +3710,6 @@ Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and te
 Given the tweet 'Tres nuevos contagios de covid-19 confirmados en las ltimas 24 horas.'; return a list of possible hashtags separated by spaces,#FestivalDeCarnavales2023
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
-Given the tweet 'It was Announced that the anime Technoroid OVERMIND Episode 8 will be postponed by 1 week to March 1 due to COVID-19-related production delays.  #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Atencin! La pandemia no ha terminado y un brote de  podra afectar a todos tus seres queridos Por eso vacnate! Revisa quines deben aplicarse la vacuna anual'; return a list of possible hashtags separated by spaces,#COVID19 #YoMeVacuno
 Given the tweet '3 COVID-193'; return a list of possible hashtags separated by spaces,#Nexpress
 Given the tweet 'I apologize on behalf of my profession for refusing to listen to patients with vax injuries - Physici'; return a list of possible hashtags separated by spaces,#InformedConsent
@@ -3775,7 +3766,6 @@ Given the tweet 'Impfgegner gabs immer schon. Mit Covid ist das Priblem aber jet
 Given the tweet 'y ! (...) y mientras con un ojo lees las redacciones de tus alumnos y con el otro los miras par'; return a list of possible hashtags separated by spaces,#FelizLunes #FelizSemana
 Given the tweet 'y ! El viernes pasado regres al cole en tiempos de covid como maestro de 3 d'; return a list of possible hashtags separated by spaces,#FelizLunes #FelizSemana
 Given the tweet 'La HAS envisage de lever la vax obligatoire. Les  pourraient alors tre rintgrs. Mais la tache de linfamie demeurera tant que  naura pas t rendue (arrirs de salaires excuses...)'; return a list of possible hashtags separated by spaces,#Covid_19 #SoignantsSuspendus #JusticePourLesSuspendus
-Given the tweet 'TECHNOROIDOVERMIND episode 8 has been delayed by a week due to COVID-19. Episode 8 will air on March 1st instead. #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Giornata nazionale del personale sanitario a 3 anni dal primo paziente  a Codogno. A Roma cerimonia con i'; return a list of possible hashtags separated by spaces,#20febbraio #Covid
 Given the tweet 'Un estudio reciente del Hospital Cedars Sinai muestra que la cantidad de muertes por ataques cardacos'; return a list of possible hashtags separated by spaces,#epidemiaendatos
 Given the tweet 'Da 1.071 de pandemia en  nuevos casos por Covid-19'; return a list of possible hashtags separated by spaces,#Venezuela13 #FestivalDeCarnavales2023
@@ -3889,7 +3879,6 @@ Given the tweet 'Biden Admin Negotiates Deal to Give WHO Authority Over US Pande
 Given the tweet 'Please protect yourselves. a Covid researcher and I have long Covid. Thats why I have to be part of the fight against it Stephanie Longet'; return a list of possible hashtags separated by spaces,#CovidIsntOver
 Given the tweet 'No te olvides del ! Usa tu mascarilla cubriendo nariz boca y mentn y reemplzala cuando se humedezca o dae'; return a list of possible hashtags separated by spaces,#COVID_19
 Given the tweet 'I segni che la  sia stata linizio di una gestione autoritaria della societ si colgono oggi nei piani'; return a list of possible hashtags separated by spaces,#pandemia #UEopp
-Given the tweet 'COVID-19'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Desde Iranzu (I)'; return a list of possible hashtags separated by spaces,#EstadoDeAlarma #ToqueDeQueda #Covid19 #Covid_19 #COVID19 #Confinamient
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'La y el editan un  con las vivencias de 39 profesionales durante el confinamiento por . destaca que leer esta publicacin es el mejor homenaje que podemos hacer a quienes tanto dieron y nos dieron.'; return a list of possible hashtags separated by spaces,#libro #covid
@@ -3905,7 +3894,6 @@ Given the tweet 'EurostatPil oltre livelli pre-Covid in 5 regioni italiane. Nel 
 Given the tweet 'The Chefs Who Have Buenos Aires (Reluctantly) Waiting in LineLocal Argentine ingredients are the stars on the menus in a city that feels almost jubilant after long Covid lockdowns and of course the victory of a certain soccer team.'; return a list of possible hashtags separated by spaces,#wine #food
 Given the tweet 'New TRACIT report shows how structural challenges    sophisticated  ne'; return a list of possible hashtags separated by spaces,#inflation #unemployment #corruption #organizedcrime
 Given the tweet 'Prsentation ce jour des rsultats de ltude portant sur les impacts de la pandmie de  sur les'; return a list of possible hashtags separated by spaces,#Recherche #COVID19
-Given the tweet '2/19/2023 # # # # 2/19/2023 Miles GuoThe'; return a list of possible hashtags separated by spaces,
 Given the tweet 'LAZ1 OFFICIAL LAZ1 COVID - 19'; return a list of possible hashtags separated by spaces,#LAZ1
 Given the tweet 'Biden Admin Negotiates Deal to Give WHO Authority Over US Pandemic Policies Ideally the Response to COVID'; return a list of possible hashtags separated by spaces,#GreatReset
 Given the tweet 'There are various changes to the corporate legal landscape. We review some of these changes including the cessation of certain temporary COVID-19 related measures and new obligations to be imposed on sustainability reporting.'; return a list of possible hashtags separated by spaces,#MHCLaw
@@ -3939,7 +3927,6 @@ Given the tweet 'Innocent Ghana had been working towards good policies till Covi
 Given the tweet 'Eine der wenigen sinnvollen Tests bei Gesunden ist (im Gegensatz zum   !!) regelmiges Blutdruckmessen. Bei Norm'; return a list of possible hashtags separated by spaces,#Covid #Test
 Given the tweet 'According to we live in a . In which  is it ok to abandon over 17 million peopl'; return a list of possible hashtags separated by spaces,#HealthUnion #HealthUnion
 Given the tweet 'Gutted to miss  thanks to bloody covid I had a dress ready that would make the one I wore to the  loo'; return a list of possible hashtags separated by spaces,#BAFTA2023 #NTAs
-Given the tweet '# 511CovidCovidCovid'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Un estudio reciente del Hospital Cedars Sinai muestra que la cantidad de muertes por ataques cardacos'; return a list of possible hashtags separated by spaces,#epidemiaendatos
 Given the tweet 'Estimacin del Riesgo de Propagacin del COVID-19'; return a list of possible hashtags separated by spaces,#20Feb #INAMEHInforma #Video #FelizLunes
 Given the tweet 'Theres already a lot of scientific theory behind post viral illness if one acknowledges the existence of . Post viral illness isnt new. Your article is a great example of how PwME the canaries in the coal mine continue to be willfully left out.'; return a list of possible hashtags separated by spaces,#MECFS #MillionsMissing
@@ -3994,7 +3981,6 @@ Given the tweet 'El  y el  te compartimos el informe del COVID-19 del  No bajemo
 Given the tweet 'EstudioLa  anti- de  est asociada con inflamaciones cardiacas.'; return a list of possible hashtags separated by spaces,#vacuna #COVID #Novavax
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'EL COLE EN TIEMPOS DE COVID'; return a list of possible hashtags separated by spaces,#DiaInternacionalDeLaEducacion #FelizLunes #FelizSemana
-Given the tweet 'COVID # #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'LAZ1 OFFICIAL LAZ1 COVID - 19'; return a list of possible hashtags separated by spaces,#LAZ1
 Given the tweet 'Un forte ridimensionamento degli standard di vita colpir le classi medie e lavoratrici  e  sono es'; return a list of possible hashtags separated by spaces,#Covid #green #guerra
 Given the tweet 's domestic air travel sees recovery reaches   20 th February 2023 via Na'; return a list of possible hashtags separated by spaces,#India #pre_CovidLevels
@@ -4302,7 +4288,6 @@ Given the tweet 'New Zealand Governments own stats show the highest percentage o
 Given the tweet 'This  remember Trump spread Covid and tried to blame gold star families for giving it to him after he expose'; return a list of possible hashtags separated by spaces,#PresidentsDay
 Given the tweet 'The 1.2M  cant help because they have no  protection. I'; return a list of possible hashtags separated by spaces,#immunocompromised #Covid
 Given the tweet 'Balance Covid-19 en Venezuela Registr 13 Nuevos contagios'; return a list of possible hashtags separated by spaces,#laotraversion #20febrero #COVID19 #Venezuela
-Given the tweet '2/19/2023 # # # # 2/19/2023 Miles GuoThe COVID origin is a good justification for the U.S. and the'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Biden Admin Negotiates Deal to Give WHO Authority Over US Pandemic Policies Ideally the Response to COVID'; return a list of possible hashtags separated by spaces,#GreatReset
 Given the tweet 'FANTASTIC BREAKING NEWS vaccine from Pfizer and BioNTech is strongly effective early data from large trial i'; return a list of possible hashtags separated by spaces,#Covid19
 Given the tweet 'Un estudio reciente del Hospital Cedars Sinai muestra que la cantidad de muertes por ataques cardacos'; return a list of possible hashtags separated by spaces,#epidemiaendatos
@@ -4532,7 +4517,6 @@ Given the tweet 'El doloroso efecto secundario de las vacunas de Pfizer y Modern
 Given the tweet 'New Zealand Governments own stats show the highest percentage of  deaths were among the vaccinated and boosted. The'; return a list of possible hashtags separated by spaces,#COVID
 Given the tweet 'Hamari maange poori karo 1) New calender of NTPC JE TT ALP GRP D recruitment a'; return a list of possible hashtags separated by spaces,#RailwayNewRojgarDo #RailwayNewRojgarDo
 Given the tweet 'The Scottish Wedding Awards are fast approaching and Im a finalist for the third year in a row (No awards in 2021 - covid ) Wish me luck!'; return a list of possible hashtags separated by spaces,#weddingphotographer
-Given the tweet '# Covid...'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Hong Kong and Azerbaijan are now connected to the  system.'; return a list of possible hashtags separated by spaces,#EUCovidCertificate
 Given the tweet 'Spike protein post Covid 19 injections in the testes.'; return a list of possible hashtags separated by spaces,#thecellsdontlie
 Given the tweet '2 La Salle County residents die of COVID-19 complications - Shaw Local News Network -- News The Perfect Enemy'; return a list of possible hashtags separated by spaces,#Vaccines
@@ -4838,7 +4822,6 @@ Given the tweet 'Atualizao   Atualizao20/02/2023 11:56:17 UTC Casos36.987.682 Ca
 Given the tweet 'Vacunacin contra Gripe y Covid sin cita previa. Centro de Salud Colonia Santa Ins - Teatinos. Del 20 al 24 de febrero. De 17:30 a 19 horas'; return a list of possible hashtags separated by spaces,#colenfermlaga #COEMlaga #enfermerapormlaga
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'Atualizao  Mundo Atualizao20/02/2023 11:52:25 UTC Casos678.725.279 Casos hoje30.513 Mortes6.791.209 Mortes hoje111 Recuperados651.435.113 Ativos20.498.957 Crticos40.901'; return a list of possible hashtags separated by spaces,#COVID19 #bot #covid #coronavirus
-Given the tweet '# ModernaCovid-1910. 4400%. http'; return a list of possible hashtags separated by spaces,
 Given the tweet 'WWRHet  promoot de acceptatie van het communisme zonder dat woord te gebruiken. Hun motto Je zult niets bezitte'; return a list of possible hashtags separated by spaces,#WEF
 Given the tweet 'My Uncle got diagnosed with  after 4 Covid jabs and a heart attack. The doctor at told him that Flu caused it (please show evidence flu causes pericarditis) and have now put him on heart inflammation drugs and told him his heart will heal from them!'; return a list of possible hashtags separated by spaces,#pericarditis #WTF
 Given the tweet 'The Tories told us  is mild why arent they telling us its now a leading cause of death in children? Why arent the'; return a list of possible hashtags separated by spaces,#COVID
@@ -4949,7 +4932,6 @@ Given the tweet 'Quest ce que la rforme sur l chmage ? A partir de quand est-ell
 Given the tweet 'New Zealand Governments own stats show the highest percentage of  deaths were among the vaccinated and boosted. The'; return a list of possible hashtags separated by spaces,#COVID
 Given the tweet 'The lifetime earnings potential of todays youth globally may be reduced by $21 trillion due to  setbacks from'; return a list of possible hashtags separated by spaces,#HumanCapital
 Given the tweet 'OpinionWhat exactly is going on inside the brains of people with  from a biological and pathological perspective?'; return a list of possible hashtags separated by spaces,#LongCovid
-Given the tweet '# . . covid-19 ('; return a list of possible hashtags separated by spaces,
 Given the tweet 'Outspoken conservative radio host Phil Valentine dies after battling   01'; return a list of possible hashtags separated by spaces,#COVID
 Given the tweet 'Epic videoLIVING WITH COVID = LET PEOPLE DIE Governments continue to ignore deaths from . We shouldnt let th'; return a list of possible hashtags separated by spaces,#COVID19
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
@@ -4968,7 +4950,6 @@ Given the tweet 'Un forte ridimensionamento degli standard di vita colpir le cla
 Given the tweet 'Salud espera recibir ms de 800 mil dosis de vacunas contra Covid-19 en lo que resta del ao'; return a list of possible hashtags separated by spaces,#NM935
 Given the tweet 'Watch the  vaccine propaganda in the sober light of 2023 and tell me the world didnt lose its mind... If you think th'; return a list of possible hashtags separated by spaces,#covid
 Given the tweet 'Hong Kong and Azerbaijan are now connected to the  system.'; return a list of possible hashtags separated by spaces,#EUCovidCertificate
-Given the tweet '# . . covid-19 ( ) -'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Mortality from  differs more than a thousand-fold between the old and young. Focused protection is the compass'; return a list of possible hashtags separated by spaces,#COVID19
 Given the tweet 'Masque COVID et Cache cou Esprit Couleurs Lagon Cache cou multi usage Couleurs Lagon Marine 5 33.29 EUR  Polyester lasthanne Lavable 49.9g CPSIA CDC conforme Super Doux Confort A+++     ...'; return a list of possible hashtags separated by spaces,#bandana #bracelet #couleurslagon #collection #c
 Given the tweet 'Merci Toute la problmatique est dsormais rvle ! Les gens sont trs fchs !'; return a list of possible hashtags separated by spaces,#CNEWS #Covid_19
@@ -5014,7 +4995,6 @@ Given the tweet 'Lantibiorsistance sest aggrav avec le  Ncessaire en cas de co-i
 Given the tweet 'Then there is the ONE and ONLY KING Who is coming out without a Success past few years and the Rise of OTT Content + Negativity surrounding from some section of Audience/People + Post COVID but undisputedly  sir made  into the 1000 Cr Club with ease'; return a list of possible hashtags separated by spaces,#KingKhan #Pathaan
 Given the tweet 'Die  in BayernDie aktuelle Welle der -Hospitalisierungen ist die zweithchste Welle der gesamten Pandemie T'; return a list of possible hashtags separated by spaces,#CSUWelle #Covid
 Given the tweet 'Zu  &amp;  Menschen erkennen ihren Krper nicht mehr wieder es sind Menschen die sozial ausgegrenzt wirtschaftlich am Rande des Existenzminimums gedrngt wurden. [...] Dadurch fhlen sie sich verloren und im Stich gelassen.'; return a list of possible hashtags separated by spaces,#PostVac #PostCovidDiese
-Given the tweet '2/23()2/26()10:3013:30 #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'PLS RT AlbertaHere is a list of Preston Mannings COVID panel. WHO ARE THEY? 1. Dr Martha Fulford -At'; return a list of possible hashtags separated by spaces,#WomenAgainstUCP
 Given the tweet 'Persevera de tal manera que tu vida pueda leerse como las estaciones del ao; periodos de crecimiento y de desapegos. ! KanerEtem'; return a list of possible hashtags separated by spaces,#PerseveraHoy #COVID_19
 Given the tweet 'What doctors wish patients knew about long COVID-19 brain fog - American Medical Association'; return a list of possible hashtags separated by spaces,#longCOVID #news
@@ -5121,7 +5101,6 @@ Given the tweet 'Mortality from  differs more than a thousand-fold between the o
 Given the tweet '3 anni fa si ammalava il primo paziente lombardo di  l mesi di disastri malagestione contagi e morti. Che hanno'; return a list of possible hashtags separated by spaces,#Covidda
 Given the tweet 'Covid 65 nuovi casi e 1 decesso in Toscana. In calo sia il tasso di positivit sia i ricoverati'; return a list of possible hashtags separated by spaces,#ANSA
 Given the tweet 'Long Covid is so awful. It can happen to anyone.'; return a list of possible hashtags separated by spaces,#LongCovid
-Given the tweet '# # #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'Last week Chinas leaders triumphantly claimed that China has achieved a decisive victory over Covid. But how'; return a list of possible hashtags separated by spaces,#Opinion
 Given the tweet 'Thank you and'; return a list of possible hashtags separated by spaces,#PfizerGate
 Given the tweet 'Moment more than 37 MLAs from  over to  defection law ceased to apply Uddhav di'; return a list of possible hashtags separated by spaces,#UddhavThackeraymoved #EknathShindeanti
@@ -5139,7 +5118,6 @@ Given the tweet 'Fier de notre vaste enqute auprs de 3690 personnes en grande  q
 Given the tweet 'Fraksi  DPR meminta agar pembahasan RUU IKN dapat ditunda sampai masa penanganan Covid-19 berakhir dan k'; return a list of possible hashtags separated by spaces,#PartaiDemokrat #AHYPimpinPerubahan
 Given the tweet 'Si lo compartes gracias pero te agradezco que lo leas al menos. Tienen riesgos los no vacunados?'; return a list of possible hashtags separated by spaces,#covid #novacunados #p
 Given the tweet 'Infected in the first wave they navigated  without a roadmap'; return a list of possible hashtags separated by spaces,#long_COVID
-Given the tweet '# Covid...'; return a list of possible hashtags separated by spaces,
 Given the tweet 'A virus that began on Friday ruined weekend plans and has emptied my mind and body of energy but at least it wasnt COVID 19 (2 negative tests) Even strong coffee hasnt helped.'; return a list of possible hashtags separated by spaces,#comfortablynumb
 Given the tweet 'PLS RT AlbertaHere is a list of Preston Mannings COVID panel. WHO ARE THEY? 1. Dr Martha Fulford -At'; return a list of possible hashtags separated by spaces,#WomenAgainstUCP
 Given the tweet 'Innocent Ghana had been working towards good policies till Covid-19 and Russia-Ukraine war hit - IMF Boss  http'; return a list of possible hashtags separated by spaces,#MetroNews
@@ -5176,7 +5154,6 @@ Given the tweet 'Japan postmortems of COVID-infected patients finds virus stays 
 Given the tweet 'Another excellent article in the . This clearly shows why we need to wear  as vaccines are not enough at th'; return a list of possible hashtags separated by spaces,#N95s
 Given the tweet 'THIS THREAD. WHERE is the NEWS COVERAGE?'; return a list of possible hashtags separated by spaces,#ComplicitGovernment #ComplicitMedia #CdnMediaFailed
 Given the tweet 'Rainbow Print Protective Fask Masks  I mean have you seen anything more fun? These are way happier looking than the standard blue or white masks'; return a list of possible hashtags separated by spaces,#rainbow #covid
-Given the tweet 'COVID-19-BLUES # #'; return a list of possible hashtags separated by spaces,
 Given the tweet 'linkEducation levels impact on belief in scientific misinformation and mistrust of COVID-19 preve ...     2023-02-20 15:38:55.372898'; return a list of possible hashtags separated by spaces,#interesting #isnotit #facts #blog
 Given the tweet 'Xendpay and have partnered to waive transaction fees to help ease the impact of COVID-19 for UK . Thank you'; return a list of possible hashtags separated by spaces,#KeyWorkers
 Given the tweet 'Un forte ridimensionamento degli standard di vita colpir le classi medie e lavoratrici  e  sono es'; return a list of possible hashtags separated by spaces,#Covid #green #guerra
@@ -5215,7 +5192,6 @@ Given the tweet 'The goals and actions of the individual humans working on the g
 Given the tweet 'El doloroso efecto secundario de las vacunas de Pfizer y Moderna'; return a list of possible hashtags separated by spaces,#TeamVox #ChicasVox52 #LevantandoEspaa #YoVotoV
 Given the tweet 'Innocent Ghana had been working towards good policies till Covid-19 and The Russia-Ukraine war hit - IMF Boss Kristalina Georgieva. Video CreditMetro Tv'; return a list of possible hashtags separated by spaces,#DenkyiramanNews
 Given the tweet 'Oh look with a friend. The man who has done less for the country and more for himself than anyone else. #'; return a list of possible hashtags separated by spaces,#borisjohnson
-Given the tweet '# # # WEF News https:/'; return a list of possible hashtags separated by spaces,
 Given the tweet '-19. La vrit merge ce que rvlent les chiffres officiel. Un regard essentiel port par  sur cette crise qui a occasionn lune des plus formidables oprations de propagande des dernires dcennies au moins -'; return a list of possible hashtags separated by spaces,#LIVRES #Covid #Pierre_Chaillot
 Given the tweet 'Thank you and'; return a list of possible hashtags separated by spaces,#PfizerGate
 Given the tweet '1/2 Naomi Wolf Naomi Wolf 3 500 experts concluent que les injections covid sont une arme'; return a list of possible hashtags separated by spaces,#Vaccins #COVID19

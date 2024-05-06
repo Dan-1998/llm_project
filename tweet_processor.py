@@ -38,7 +38,7 @@ def process_tweet(tweet_data):
     if 1 <= len(hashtags) <= 5:
         cleaned_text = clean_tweet(full_text)
         cleaned_text, extracted_hashtags = extract_hashtags(cleaned_text)
-        if len(cleaned_text) >= 4:
+        if len(cleaned_text) >= 4 and len(extracted_hashtags) >= 1:
             input_text = f"Given the tweet '{cleaned_text}'; return a list of possible hashtags separated by spaces"
             return [input_text, extracted_hashtags]
     return None

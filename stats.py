@@ -119,8 +119,8 @@ def tweet_stats_table(raw_dataset_statistics: dict):
 
 if __name__ == '__main__':
     raw_dataset_statistics = raw_dataset_statistics('out.json')
-    # language_pie_chart(raw_dataset_statistics["average_tweets_per_language"])
-    # hashtags_wordcloud(raw_dataset_statistics["hashtags"])
-    # print(tweet_stats_table(raw_dataset_statistics))
+    language_pie_chart(raw_dataset_statistics["average_tweets_per_language"])
+    hashtags_wordcloud(raw_dataset_statistics["hashtags"])
+    print(tweet_stats_table(raw_dataset_statistics))
 
 

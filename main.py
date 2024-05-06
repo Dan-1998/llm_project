@@ -1,7 +1,14 @@
 import pyspark
+from pyspark.sql.types import *
 import json
 import re
 import emoji
+
+spark = pyspark.sql.SparkSession \
+    .builder \
+    .appName("LLM training data") \
+    .getOrCreate()
+
 
 hashtags = []
 tweets = []
@@ -13,6 +20,13 @@ with open('out.json') as json_file:
         tweet = json.loads(line).get('full_text', '')
         hashtags.append(hashtag_pattern.findall(tweet))
         tweets.append(tweet)
+
+data = list(zip(tweets, hashtags))
+schema = StructType([StructField("Input", StringType(), True), StructField(
+    "Output", StringType(), True)])
+df = spark.createDataFrame(data, schema)
+
+df.show()
 
 print(hashtags[0:10])
 print(tweets[0:10])
@@ -64,3 +78,4 @@ with open('training.csv', 'w', encoding='utf-8') as training_csv:
                            f'n a list of possible hashtags,'
                            f'{remove_bad_hashtag_data(str(hashtags[i])).strip(",")}')
         training_csv.write('\n')
+

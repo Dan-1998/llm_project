@@ -18,9 +18,9 @@ def clean_tweet(tweet):
     tweet = re.sub(r'\s+', ' ', tweet).strip()
     # Remove all https links
     tweet = re.sub(r'https?:\/\/\S+', '', tweet)
-    # Normalize colons followed by several spaces
+    # Remove all colons followed by excessive white space
     tweet = re.sub(r':\s+', '', tweet)
-    # Normalize pipe characters followed by several spaces
+    # Remove all | followed by excessive white space
     tweet = re.sub(r'\|\s+', '', tweet)
     return tweet
 

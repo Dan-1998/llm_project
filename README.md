@@ -8,6 +8,8 @@ For this project LLM models are retrained using a series of preprocessed tweets 
   * datasets
   * pandas
   * matplotlib
+  * sentencepiece
+  * accelerate
   * json
   * re
   * csv

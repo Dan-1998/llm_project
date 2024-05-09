@@ -6,7 +6,7 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, \
     AutoModelForMaskedLM, T5Tokenizer, T5ForConditionalGeneration
 import matplotlib.pyplot as plt
 
-model_name = "google/flan-t5-xl"#"Twitter/twhin-bert-large"#"t5-large"
+model_name = "t5-small"#"Twitter/twhin-bert-large"#"t5-large"
 
 
 class Trainer:
@@ -55,8 +55,8 @@ class Trainer:
     def train(self):
         print("LOAD MODEL")
         # Load a pre-trained model
-        self.model = T5ForConditionalGeneration.from_pretrained(model_name,
-                                                                device_map="auto")#AutoModelForMaskedLM.from_pretrained(model_name)#AutoModelForSeq2SeqLM.from_pretrained(model_name)
+        self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name) if model_name.startswith('t5') else T5ForConditionalGeneration.from_pretrained(model_name, device_map="auto")
+        #AutoModelForMaskedLM.from_pretrained(model_name)#
 
         # Training arguments
         training_args = Seq2SeqTrainingArguments(

@@ -1,7 +1,8 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-
+from trainer import model_name
 # Load trained model and tokenizer
-model_path = "./finetuned_model"
+model_path = f"./{model_name}"
+print(f'Using {model_path}')
 model = AutoModelForSeq2SeqLM.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 

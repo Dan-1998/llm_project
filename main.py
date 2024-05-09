@@ -21,12 +21,7 @@ with open('out.json') as json_file:
         hashtags.append(hashtag_pattern.findall(tweet))
         tweets.append(tweet)
 
-data = list(zip(tweets, hashtags))
-schema = StructType([StructField("Input", StringType(), True), StructField(
-    "Output", StringType(), True)])
-df = spark.createDataFrame(data, schema)
 
-df.show()
 
 print(hashtags[0:10])
 print(tweets[0:10])
@@ -68,6 +63,23 @@ tweets = [remove_bad_tweet_data(tweet) for tweet in tweets]
 def remove_bad_hashtag_data(data):
     return re.sub(re.compile(r'[\[\],\']'), '', data)
 
+
+data = list(zip(tweets, hashtags))
+schema = StructType([StructField("Input", StringType(), True), StructField(
+    "Output", StringType(), True)])
+df = spark.createDataFrame(data, schema)
+
+df.show()
+
+df.createOrReplaceTempView("llm_data")
+tweets_2 = list(spark.sql('SELECT Input FROM llm_data').rdd.flatMap(lambda x:
+                                                                x).collect())
+hashtags_2 = list(spark.sql('SELECT Output FROM llm_data').rdd.flatMap(lambda
+                                                                           x:
+                                                                       x).collect())
+
+print(len(tweets_2))
+print(tweets_2 == tweets)
 
 with open('training.csv', 'w', encoding='utf-8') as training_csv:
     assert len(hashtags) == len(tweets)
